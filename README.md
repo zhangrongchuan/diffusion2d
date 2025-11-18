@@ -15,6 +15,7 @@ diffusion equation** on a square domain.\
 Initially, the plate is set to a uniform cold temperature, except for a
 hot circular region at the center.\
 The temperature then evolves according to the diffusion equation:
+
 $$
 \frac{\partial T}{\partial t}
 = D \left(
