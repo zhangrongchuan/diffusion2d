@@ -1,3 +1,18 @@
+Metadata-Version: 2.4
+Name: rongchzg_diffusion2d
+Version: 0.0.1
+Summary: Two-dimensional diffusion equation solver with plotting utilities.
+Author-email: Rongchuan Zhang <rongchuanzhang971@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/zhangrongchuan/diffusion2d
+Project-URL: Source, https://github.com/zhangrongchuan/diffusion2d
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Dynamic: license-file
+
 # rongchzg_diffusion2d
 
 A Python package that solves the **two-dimensional diffusion equation**
@@ -49,7 +64,8 @@ After uploading the distribution to **TestPyPI**, the package can be
 installed using:
 
 ``` bash
-pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ rongchzg_diffusion2d
+pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple \
+    rongchzg_diffusion2d
 ```
 
 Explanation: - `test.pypi.org` contains your package\

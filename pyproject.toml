@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rongchzg_diffusion2d"
+version = "0.0.1"
+description = "Two-dimensional diffusion equation solver with plotting utilities."
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+  { name = "Rongchuan Zhang", email = "rongchuanzhang971@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+  "numpy",
+  "matplotlib"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zhangrongchuan/diffusion2d"
+"Source"   = "https://github.com/zhangrongchuan/diffusion2d"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rongchzg_diffusion2d"]
